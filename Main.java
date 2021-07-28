@@ -4,7 +4,7 @@ public class Main {
     int amount = Integer.parseInt(args[0]);
     int bonus = 0;
     
-    if(amount>=1000){
+    if(amount>1000){
         bonus = amount/100;
     }
     
